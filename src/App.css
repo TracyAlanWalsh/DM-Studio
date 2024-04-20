@@ -1,0 +1,285 @@
+body {
+  padding: 0;
+  font-family: Arial, sans-serif;
+  
+  background-image: url('./assets/industrial.jpg');
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the background image */
+}
+
+.navbar {
+  background-color: #644b1ede;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%; /* Add this line */
+  position: fixed; /* Add this line */
+  top: 0; /* Add this line */
+  z-index: 999; /* Add this line */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.8em;
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+}
+
+.buffer{
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 900;
+}
+
+
+.home-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color:  rgba(0, 0, 0, 0.801);
+  border-radius: 5px;
+ height: 100v;
+}
+
+.image-slider {
+ margin-top: 90px;
+ width: 100%;
+ position: absolute;
+  
+}
+
+.source-image {
+  width: 60%; /* Adjust the width as needed */
+  margin-bottom: 60px; /* Add some space below the image */
+  border-radius: 30%;
+  box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.822);
+  opacity: 1; /* Start with full opacity */
+  transition: opacity 1s ease;
+}
+
+.home-text {
+  font-size: 18px;
+  line-height: 1.5;
+  
+}
+
+
+
+.logo-image {
+  width: 95%; /* Adjust the width of the logo image as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 60%;
+  margin-bottom: 30px; /* Add some space below the logo */
+  border-radius: 10px; 
+  opacity: 0.7;
+  box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.822);
+  
+}
+
+.about-section {
+  height: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  
+}
+
+.about-image {
+  width: 26%; /* Adjust the width as needed */
+  margin-right: 30px; /* Add some space between image and text */
+  position: relative;
+  border-radius: 30%;
+  box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.822);
+}
+
+.Bass {
+  width: 40%; /* Adjust the width as needed */
+  margin-right: 30px; /* Add some space between image and text */
+  position: relative;
+  border-radius: 30%;
+  box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.822);
+}
+
+.Drummin {
+  width: 40%; /* Adjust the width as needed */
+  margin-right: 30px; /* Add some space between image and text */
+  position: relative;
+  border-radius: 30%;
+  box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.822);
+}
+
+.about-text {
+  position: relative;
+  width: 70%;
+  padding: 20px;
+  background-color: rgba(168, 139, 101, 0.849); 
+  border-radius: 10px;
+  border: solid .3px black;
+  text-align: center; /* Center-align text within the section */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 00;
+  font-size: 2.3em;
+  line-height: 1.3;
+  text-shadow: 1px 1px 4px rgba(119, 84, 61, 0.39);
+  box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.822);
+  margin-left: 15%;
+}
+
+
+
+.services-section {
+  text-align: center;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-around; /* Distribute space evenly between cards */
+  flex-wrap: wrap; /* Wrap cards to a new line if they don't fit */
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #1d1b1b77;
+  border-radius: 6px;
+}
+
+.service-card {
+  width: 400px; /* Adjust the width of each card as needed */
+  height: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #1d1b1b;
+  border-radius: 5px;
+  box-shadow: 3 3px 6px rgba(0, 0, 0, 0.842);
+  background-color: rgba(222, 184, 135, 0.596);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.3em;
+  box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.822);
+  text-shadow: 1px 1px 4px rgba(119, 84, 61, 0.603);
+  transition: background-color 0.3s ease;
+}
+.service-card:hover {
+  background-color: rgba(180, 128, 61, 0.418);
+  
+ 
+}
+.service-card h3 {
+  margin-top: 0;
+}
+
+.service-card p {
+  margin-bottom: 0;
+}
+
+
+
+.reference-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+  background-color: #33333388;
+  border-radius: 10px;
+  
+}
+
+.reference-card {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center; 
+  background-color: rgba(222, 184, 135, 0.548);
+  box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.822);
+}
+
+.reference-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.reference-card h3 {
+  margin-top: 10px;
+  font-size: 2em;
+}
+
+.reference-card p {
+  margin-top: 10px;
+  font-size: 1.6em;
+}
+
+
+h2 {
+  background-color: rgba(151, 119, 79, 0.678);
+  padding: 20px;
+  border-radius: 10%;
+  border: solid #1d1b1b;
+  text-align: center;
+  box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.822);
+  font-size: 2.6em; 
+}
+
+.fb-image {
+  position: absolute;
+  max-width: 28%; /* Ensure the image fits within its container */
+  border-radius: 5px; /* Add rounded corners to the image */
+  margin-top: 9%; /* Add some space below the image */
+  margin-left: -36%;
+  border-radius: 30px;
+  box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.822);
+
+}
+
+.logo-image-2 {
+  position: absolute;
+  max-width: 30%; /* Ensure the image fits within its container */
+  border-radius: 5px; /* Add rounded corners to the image */
+  margin-top: 11%; /* Add some space below the image */
+  margin-left: 20%;
+  border-radius: 30px;
+  box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.822);
+}
+
+/* Style for the contact image */
+.contact-image {
+  max-width: 15%; /* Ensure the image fits within its container */
+  border-radius: 5px; /* Add rounded corners to the image */
+  margin-bottom: 20px; /* Add some space below the image */
+  border-radius: 30px;
+  box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.822);
+}
+
+.contact-header {
+  background-color: rgba(222, 184, 135, 0.486);
+  font-size: 2.6em; 
+  padding: 20px;
+  border-radius: 30px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.664);
+  box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.822);
+}
+#contact {
+  padding: 50px 0; /* Adjust padding as needed */
+  text-align: center; /* Center align text and image */
+  margin-bottom: 20px;
+  
+  
+}
+
+.buffer {
+  height: 60px; /* Adjust this height to match the height of your navbar */
+}
+
